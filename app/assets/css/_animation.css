@@ -1,0 +1,89 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    max-width: 0vh;
+    min-width: 0vh;
+  }
+  to {
+    max-width: 60vh;
+    min-width: 60vh;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    filter: blur(300px);
+  }
+  to {
+    filter: blur(0);
+  }
+}
+
+@keyframes slideIn2 {
+  from {
+    transform: translateY(-50%);
+    filter: blur(20px);
+  }
+  to {
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes slider1ToCenter {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slider2ToCenter {
+  from {
+    min-width: 800px;
+    transform: translateX(0);
+  }
+  to {
+    min-width: 0px;
+    transform: translateX(50%);
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(100%);
+  }
+  to {
+    transform: scale(120%);
+  }
+}
+@keyframes hardPulse {
+  0% {
+    transform: scale(100%);
+  }
+  50% {
+    transform: scale(150%);
+    color: red;
+  }
+  100% {
+    transform: scale(100%);
+  }
+}
+
+@keyframes motion {
+  0% {
+    transform: rotate(340deg);
+  }
+  50% {
+    transform: rotate(350deg);
+  }
+}

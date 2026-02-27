@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --background: #F4F4F4;
+  --aside-background: #333333;
+  --text: black;
+  --alert: red;
+  --warning: orange;
+  --success: darkgreen;
+  --btn-bg: #007BFF;
+  --fs-text: 16px;
+  --fs-subtitle: 32px;
+  --fs-title: 42px;
+  --lh: 1.45rem;
+  --letter-spacing: .05rem;
+  --transition-fast: 0.5s ease;
+  --transition-normal: 1s ease;
+  --transition-normal-slow: 1.5s ease;
+  --transition-slow: 2s ease;
+  --fonts1: "JetBrains";
+}
+
+:root {
+  /* ⚪ LIGHT */
+  --light-3: hsl(0, 0%, 100%);
+  --light-2: hsl(0, 0%, 96%);
+  --light-1: hsl(0, 0%, 92%);
+  --light-contrast: var(--dark-2);
+
+  /* ⚫ DARK */
+  --dark-1: hsl(240, 17%, 26%);
+  --dark-2: hsl(240, 17%, 22%);
+  --dark-3: hsl(240, 17%, 18%);
+  --dark-contrast: var(--light-2);
+
+  /* Primary */
+  --primary: darkred;
+  --primary-contrast: var(--light-2);
+
+  /* SUCCESS */
+  --success: darkgreen;
+  --success-contrast: var(--dark-2);
+
+  /* WARNING */
+  --warning: darkorange;
+  --warning-contrast: var(--dark-2);
+
+  /* DANGER */
+  --danger: red;
+  --danger-contrast: var(--light-2);
+}

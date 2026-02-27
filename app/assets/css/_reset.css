@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  vertical-align: middle;
+  font-family: var(--fonts1);
+  cursor: url("../image/cursor/proto_cursor.cur"), default;
+}
+
+* a:hover,
+* button:hover {
+  cursor: url("../image/cursor/proto_cursor_hover.cur"), pointer;
+}
+
+* textarea,
+input {
+  cursor: url("../image/cursor/proto_text_cursor.cur"), text;
+}
+
+body {
+  background-color: var(--background);
+  transition: all var(--transition-normal);
+  overflow: hidden;
+}
+
+p {
+  line-height: var(--lh);
+  letter-spacing: var(--letter-spacing);
+}
+
