@@ -1,10 +1,5 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -12,10 +7,54 @@
   --font-mono: var(--font-geist-mono);
 }
 
+:root {
+  
+  /* ⚪ LIGHT */
+  --light-3: hsl(0, 0%, 100%);
+  --light-2: hsl(0, 0%, 96%);
+  --light-1: hsl(0, 0%, 92%);
+  --light-contrast: var(--dark-2);
+  --foreground: #000000;
+  --background: #ffffff;
+
+  /* Primary */
+  --primary: darkred;
+  --primary-contrast: var(--light-2);
+
+  /* SUCCESS */
+  --success: darkgreen;
+  --success-contrast: var(--dark-2);
+
+  /* WARNING */
+  --warning: darkorange;
+  --warning-contrast: var(--dark-2);
+
+  /* DANGER */
+  --danger: red;
+  --danger-contrast: var(--light-2);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* ⚪ LIGHT */
+    --light-3: hsl(0, 0%, 100%);
+    --light-2: hsl(0, 0%, 96%);
+    --light-1: hsl(0, 0%, 92%);
+    --light-contrast: var(--dark-2);
+    --foreground: #000000;
+    --background: #ffffff;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* ⚫ DARK */
+    --dark-1: hsl(240, 17%, 26%);
+    --dark-2: hsl(240, 17%, 22%);
+    --dark-3: hsl(240, 17%, 18%);
+    --dark-contrast: var(--light-2);
+    --foreground: #ffffff;
+    --background: #000000;
   }
 }
 

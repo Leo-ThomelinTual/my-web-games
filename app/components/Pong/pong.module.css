@@ -16,7 +16,7 @@
   border-radius: 25px 0 0 25px;
 } */
 
-main {
+.main {
   margin: 0;
   display: flex;
   justify-content: center;
@@ -48,11 +48,11 @@ main {
   background-color: white;
 }
 
-.paddle-left {
+.paddleLeft {
   left: 0px;
   top: 160px;
 }
-.paddle-right {
+.paddleRight {
   right: 0px;
   top: 160px;
 }
@@ -64,9 +64,6 @@ main {
   border-radius: 50%;
   background-color: white;
 }
-
-
-
 
 .keyboard-player1 {
   position: absolute;

@@ -237,7 +237,7 @@ function resetBall() {
     "rank-a",
     "rank-s",
     "rank-ss",
-    "rank-sss"
+    "rank-sss",
   );
   ball.style.backgroundColor = "white";
   ballXInit = BallInitalXSpawn;

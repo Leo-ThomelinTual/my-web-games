@@ -7,14 +7,34 @@ const MmoType = () => {
   return (
     <>
       <main className="w-full h-screen">
-        <AutoFarm />
+        <section className="absolute right-0 m-2 flex flex-row-reverse flex-wrap gap-1">
+          <ResourceDesplay
+            ResourceName="Pierre"
+            ResourceStock={3}
+            ResourceIcon=""
+          />
+          <ResourceDesplay
+            ResourceName="Berry"
+            ResourceStock={3}
+            ResourceIcon=""
+          />
+          <ResourceDesplay
+            ResourceName="Bois"
+            ResourceStock={3}
+            ResourceIcon=""
+          />
+        </section>
+        <section className="absolute right-2 top-[3em] flex flex-row gap-1">
+          <AutoFarm />
+        </section>
+        <section
+          id="inventory"
+          className="group absolute right-20 top-[60%] hidden translate-y-[-50%]"
+        >
+          <QuickAction />
+        </section>
+
         <Input />
-        <ResourceDesplay
-          ResourceName="Test"
-          ResourceStock={3}
-          ResourceIcon=""
-        ></ResourceDesplay>
-        <QuickAction />
       </main>
     </>
   );

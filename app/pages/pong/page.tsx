@@ -1,7 +1,12 @@
+import Pong from "@/app/components/Pong/Pong";
 import React from "react";
 
 const page = () => {
-  return <div>page</div>;
+  return (
+    <div>
+      <Pong />
+    </div>
+  );
 };
 
 export default page;
